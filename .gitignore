@@ -1,0 +1,24 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+*.swp
+*.swo
+*~
+
+# Node (Obsidian plugins)
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Scout index (rebuilt on demand)
+.scout-index/
+
+# SQLite
+*.db
+*.db-wal
+*.db-shm
