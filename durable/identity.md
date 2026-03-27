@@ -6,10 +6,17 @@
 ## What we're building
 **Polylith monorepo** for FileScience backend services — multiple services/apps sharing reusable components. Automated cloud backups + granular recovery (item, user, or environment).
 
-## Product north star
-Fast, slick, accessible business continuity tool for cloud apps. Few-click setup, fast search, fast restore. Simple > complex.
+## Strategic frame
+FileScience is the **version control layer for the agent era**. The sync engine, discovery engine, recovery engine, and entity graph already exist — reframed as agent infrastructure, this becomes "git for everything agents touch." Agents snapshot before acting, revert on failure, and audit what changed. The undo button is what unlocks action trust.
 
-**Personas:** IT/MSP operators (multi-tenant leverage) and non-IT operators (self-serve recovery).
+Parent company **Akasha** combines FileScience (infrastructure) with **Carrie/Caroline** (cognitive agent platform with pluggable capabilities). FileScience provides the safety layer; Carrie provides the intelligence.
+
+Full thesis: `thoughts/shared/briefs/2026-03-26-akasha-agent-era-version-control.md`
+
+## Product north star
+Fast, slick, accessible business continuity tool for cloud apps. Few-click setup, fast search, fast restore. Simple > complex. Evolving toward an agent-native MCP surface that exposes snapshot/revert/diff/audit as primitives for any agent framework.
+
+**Personas:** IT/MSP operators (multi-tenant leverage), non-IT operators (self-serve recovery), and agent platforms (programmatic state versioning).
 
 ## Supported clouds (hard constraint)
 Clio, Microsoft 365, Box. Other `/clouds/*` pages are prospecting/interest tests.
